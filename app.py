@@ -11,7 +11,7 @@ def index():
 def main():
     q = request.form.get("q")
     print(q)
-    return(render_template("dbs.html"))
+    return(render_template("main.html"))
 
 @app.route("/dbs",methods=["GET","POST"])
 def dbs():
